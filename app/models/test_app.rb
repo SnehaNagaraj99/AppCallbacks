@@ -11,7 +11,8 @@ class TestApp < ActiveRecord::Base
   private
 
   def remove_whitespaces
+    binding.pry
     name.strip!
   end
 end
-# end
+#end
